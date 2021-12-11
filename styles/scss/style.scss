@@ -1,3 +1,57 @@
 @import "media";
 @import "reset";
 @import "variables";
+
+.testimonials__container {
+  grid-template-columns: 1fr;
+
+  .testimonials__card {
+    &--daniel {
+      background-color: $violet;
+      // ! Return here and style the quotation sign for this card only
+
+      .testimonials__author {
+        &--image {
+          img {
+            border: 3px solid hsl(263, 54%, 61%);
+          }
+        }
+      }
+    }
+    &--jonathan {
+      background-color: $gray-blue;
+    }
+    &--jeanette {
+      background-color: $white;
+    }
+    &--patrick {
+      background-color: $black-blue;
+
+      .testimonials__author {
+        &--image {
+          img {
+            border: 3px solid $violet;
+          }
+        }
+      }
+    }
+    &--kira {
+      background-color: $white;
+    }
+
+    padding: 3rem;
+
+    .testimonials__author {
+      align-items: center;
+      justify-content: flex-start;
+      gap: 2rem;
+
+      &--image {
+        img {
+          width: 5rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
