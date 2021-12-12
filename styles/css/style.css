@@ -1,3 +1,49 @@
+@media (max-width: 374px) {
+  .testimonials .testimonials__container .testimonials__card .testimonials__quotation img {
+    width: 9rem;
+    height: inherit;
+  }
+}
+
+@media (max-width: 345px) {
+  .testimonials .testimonials__container .testimonials__card .testimonials__content h1 {
+    font-size: 1.9rem;
+  }
+  .testimonials .testimonials__container .testimonials__card .testimonials__content p {
+    font-size: 1.25rem;
+  }
+  .testimonials .testimonials__container .testimonials__card .testimonials__quotation img {
+    width: 7rem;
+    height: inherit;
+  }
+}
+
+@media (max-width: 320px) {
+  .testimonials .testimonials__container .testimonials__card .testimonials__quotation img {
+    width: 6rem;
+    height: inherit;
+  }
+}
+
+@media (max-width: 312px) {
+  .testimonials .testimonials__container .testimonials__card .testimonials__quotation img {
+    width: 5rem;
+    height: inherit;
+  }
+}
+
+@media (max-width: 299px) {
+  .testimonials .testimonials__container .testimonials__card .testimonials__content h1 {
+    font-size: 1.7rem;
+  }
+  .testimonials .testimonials__container .testimonials__card .testimonials__content p {
+    font-size: 1.2rem;
+  }
+  .testimonials .testimonials__container .testimonials__card .testimonials__quotation img {
+    display: none;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -131,7 +177,7 @@ html {
 
 .testimonials__container .testimonials__card .testimonials__content h1 {
   font-size: 2.14rem;
-  margin-top: .7rem;
+  margin-top: 0.7rem;
   z-index: 3;
   line-height: 1.4;
 }
@@ -151,5 +197,6 @@ html {
 
 .testimonials__container .testimonials__card .testimonials__quotation img {
   width: 11rem;
+  height: 11.5rem;
 }
 /*# sourceMappingURL=style.css.map */
