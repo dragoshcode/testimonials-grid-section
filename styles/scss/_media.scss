@@ -1,3 +1,5 @@
+@import "utility";
+
 // Mobile Sizes
 @media (max-width: 374px) {
   .testimonials {
@@ -83,6 +85,35 @@
           img {
             display: none;
           }
+        }
+      }
+    }
+  }
+}
+
+// Desktop Sizes
+
+@media (min-width: 820px) {
+  main {
+    .testimonials {
+      .margin-top-grid{
+        margin-top: 3rem;
+      }
+
+      .testimonials__container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        // .grid-daniel{
+        //   grid-column: span 2;
+        // }
+
+        // .grid-jonathan{
+        //   grid-column: 1 / 2 ;
+        // }
+
+        .margin-top {
+          margin-top: 0;
         }
       }
     }
