@@ -23,14 +23,14 @@
 }
 
 .white-txt {
-  .testimonials__author{
-    &--name{
-      h2{
+  .testimonials__author {
+    &--name {
+      h2 {
         color: $white;
       }
-      p{
+      p {
         color: $white;
-        opacity: .65;
+        opacity: 0.55;
       }
     }
   }
@@ -41,32 +41,55 @@
     }
     p {
       color: $white;
-      opacity: 0.65;
+      opacity: 0.55;
     }
   }
 }
 
 .gray-blue-txt {
-  .testimonials__author{
-    &--name{
-      h2{
+  .testimonials__author {
+    &--name {
+      h2 {
         color: $gray-blue;
       }
-      p{
+      p {
         color: $gray-blue;
-        opacity: .65;
+        opacity: 0.55;
       }
     }
   }
-  
+
   .testimonials__content {
     h1 {
       color: $gray-blue;
     }
     p {
       color: $gray-blue;
-      opacity: 0.65;
+      opacity: 0.55;
     }
   }
 }
 
+.testimonials__card {
+  .testimonials__author {
+    .border-soft-violet {
+      img {
+        border: 3px solid hsl(263, 42%, 60%);
+      }
+    }
+
+    .border-violet {
+      img {
+        border: 3px solid $violet;
+      }
+    }
+  }
+}
+
+.testimonials {
+  .testimonials__container {
+    .margin-top {
+      margin-top: 3rem;
+    }
+  }
+}

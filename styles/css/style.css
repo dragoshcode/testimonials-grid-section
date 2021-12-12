@@ -5,7 +5,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 html {
@@ -46,7 +46,7 @@ html {
 
 .white-txt .testimonials__author--name p {
   color: white;
-  opacity: .65;
+  opacity: 0.55;
 }
 
 .white-txt .testimonials__content h1 {
@@ -55,7 +55,7 @@ html {
 
 .white-txt .testimonials__content p {
   color: white;
-  opacity: 0.65;
+  opacity: 0.55;
 }
 
 .gray-blue-txt .testimonials__author--name h2 {
@@ -64,7 +64,7 @@ html {
 
 .gray-blue-txt .testimonials__author--name p {
   color: #48556a;
-  opacity: .65;
+  opacity: 0.55;
 }
 
 .gray-blue-txt .testimonials__content h1 {
@@ -73,16 +73,36 @@ html {
 
 .gray-blue-txt .testimonials__content p {
   color: #48556a;
-  opacity: 0.65;
+  opacity: 0.55;
+}
+
+.testimonials__card .testimonials__author .border-soft-violet img {
+  border: 3px solid #8f6ec4;
+}
+
+.testimonials__card .testimonials__author .border-violet img {
+  border: 3px solid #7541c8;
+}
+
+.testimonials .testimonials__container .margin-top {
+  margin-top: 3rem;
 }
 
 .testimonials__container {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+  gap: 3rem;
 }
 
 .testimonials__container .testimonials__card {
-  padding: 3rem;
+  -webkit-box-shadow: 0px 16px 45px -10px #48556a;
+          box-shadow: 0px 16px 45px -10px #48556a;
+  border-radius: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 3rem 4rem 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .testimonials__container .testimonials__card .testimonials__author {
@@ -98,5 +118,38 @@ html {
 .testimonials__container .testimonials__card .testimonials__author--image img {
   width: 5rem;
   border-radius: 50%;
+}
+
+.testimonials__container .testimonials__card .testimonials__author--name h2 {
+  font-size: 1.5rem;
+}
+
+.testimonials__container .testimonials__card .testimonials__author--name p {
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.testimonials__container .testimonials__card .testimonials__content h1 {
+  font-size: 2.14rem;
+  margin-top: .7rem;
+  z-index: 3;
+  line-height: 1.4;
+}
+
+.testimonials__container .testimonials__card .testimonials__content p {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.testimonials__container .testimonials__card .testimonials__quotation {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 2.5rem;
+}
+
+.testimonials__container .testimonials__card .testimonials__quotation img {
+  width: 11rem;
 }
 /*# sourceMappingURL=style.css.map */
