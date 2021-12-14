@@ -1,121 +1,17 @@
 @import "utility";
 
-// Mobile Sizes
 @media (max-width: 374px) {
   .testimonials {
-    .testimonials__container {
-      .testimonials__card {
-        .testimonials__quotation {
-          img {
-            width: 9rem;
-            height: inherit;
-          }
-        }
-      }
+    &__quotation {
+      display: none;
     }
   }
 }
-
-@media (max-width: 345px) {
-  .testimonials {
-    .testimonials__container {
-      .testimonials__card {
-        .testimonials__content {
-          h1 {
-            font-size: 1.9rem;
-          }
-          p {
-            font-size: 1.25rem;
-          }
-        }
-        .testimonials__quotation {
-          img {
-            width: 7rem;
-            height: inherit;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 320px) {
-  .testimonials {
-    .testimonials__container {
-      .testimonials__card {
-        .testimonials__quotation {
-          img {
-            width: 6rem;
-            height: inherit;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 312px) {
-  .testimonials {
-    .testimonials__container {
-      .testimonials__card {
-        .testimonials__quotation {
-          img {
-            width: 5rem;
-            height: inherit;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 299px) {
-  .testimonials {
-    .testimonials__container {
-      .testimonials__card {
-        .testimonials__content {
-          h1 {
-            font-size: 1.7rem;
-          }
-          p {
-            font-size: 1.2rem;
-          }
-        }
-        .testimonials__quotation {
-          img {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
-
-// Desktop Sizes
 
 @media (min-width: 820px) {
-  main {
-    .testimonials {
-      .margin-top-grid{
-        margin-top: 3rem;
-      }
-
-      .testimonials__container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-
-        // .grid-daniel{
-        //   grid-column: span 2;
-        // }
-
-        // .grid-jonathan{
-        //   grid-column: 1 / 2 ;
-        // }
-
-        .margin-top {
-          margin-top: 0;
-        }
-      }
+  .testimonials{
+    &__container{
+      display: none;
     }
   }
 }

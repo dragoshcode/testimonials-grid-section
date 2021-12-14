@@ -73,7 +73,7 @@
 }
 
 .testimonials__card {
-  .testimonials__author {
+  &__author {
     .border-soft-violet {
       img {
         border: 3px solid hsl(263, 42%, 60%);
@@ -89,7 +89,7 @@
 }
 
 .testimonials {
-  .testimonials__container {
+  &__container {
     .margin-top {
       margin-top: 3rem;
     }
