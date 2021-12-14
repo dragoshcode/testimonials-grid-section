@@ -2,8 +2,6 @@
 
 ## For this design I've used HTML & SCSS
 
----
-
 ## Concepts used to build it:
 
 - BEM methodology
@@ -12,7 +10,6 @@
 - Grid
 - Responsive design
 
----
 
 You can check the Live Website [Here](https://testimonial-grid-section-ui.netlify.app)
 
