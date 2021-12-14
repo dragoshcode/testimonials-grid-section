@@ -88,18 +88,6 @@ html {
   margin-top: 3rem;
 }
 
-@media (max-width: 374px) {
-  .testimonials__quotation {
-    display: none;
-  }
-}
-
-@media (min-width: 820px) {
-  .margin-top-grid {
-    margin-top: 3rem;
-  }
-}
-
 .grid {
   display: -ms-grid;
   display: grid;
@@ -173,6 +161,22 @@ html {
 
 .testimonials__container .margin-top {
   margin-top: 3rem;
+}
+
+@media (max-width: 374px) {
+  .testimonials__quotation {
+    display: none;
+  }
+}
+
+@media (min-width: 820px) {
+  .testimonials__container {
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .margin-top-grid {
+    margin-top: 3rem;
+  }
 }
 
 .testimonials__container {
