@@ -15,4 +15,5 @@ You can check the Live Website [Here](https://testimonial-grid-section-ui.netlif
 
 My social activity: [Twitter](https://twitter.com/dragoshcode) | [Linkedin](https://linkedin.com/in/dragoshcode)
 
-![design-image](assets\design\desktop-design.jpg)
+![design-image](desktop-design.jpg)
+
